@@ -16,7 +16,7 @@ module.exports = function(grunt) {
         var log = grunt.log;
 
         if (!code) {
-            result.stdout.split('\n').forEach(log.writeln, log);
+            result.stdout.split('\n').forEach(log.ok, log);
             return null;
         }
 
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
         grunt.log.writeln('Running shell tests...');
 
         grunt.util.spawn({
-            cmd: path.resolve('../vendor/bats/bin/bats'),
+            cmd: path.resolve('vendor/bats/bin/bats'),
             args: files
         }, function() {
             done(testDone.apply(this, arguments));

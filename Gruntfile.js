@@ -26,6 +26,11 @@ module.exports = function(grunt) {
         // Configuration to be run (and then tested).
         bats: {
             tests: ['test/*_test.bats'],
+        },
+
+        watch: {
+            files: '<%= jshint.all %>',
+            tasks: 'test'
         }
     });
 
