@@ -9,7 +9,10 @@
     "email": "rv.maksim@yandex.ru"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "test",
+    "bash",
+    "bats"
   ],
   "main": "Gruntfile.js",
   "repository": {
