@@ -1,0 +1,34 @@
+{
+  "name": "grunt-bats",
+  "version": "0.0.0",
+  "description": "Grunt plugin for Bats. Bats is a TAP-compliant testing framework for Bash. It provides a simple way to verify that the UNIX programs you write behave as expected.",
+  "homepage": "https://github.com/maksimr/grunt-bats",
+  "bugs": "https://github.com/maksimr/grunt-bats/issues",
+  "author": {
+    "name": "Maksim Ryzhikov",
+    "email": "rv.maksim@yandex.ru"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maksimr/grunt-bats"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "matchdep": "~0.1.2",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-jshint": "~0.2.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}

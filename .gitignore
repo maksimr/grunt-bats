@@ -1,0 +1,8 @@
+*~
+*.swp
+*.swo
+*.swn
+*.swm
+tags
+.tern-port
+node_modules
