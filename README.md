@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/maksimr/grunt-bats.png?branch=master)](https://travis-ci.org/maksimr/grunt-bats) [![Build Status](https://drone.io/github.com/maksimr/grunt-bats/status.png)](https://drone.io/github.com/maksimr/grunt-bats/latest)
 
-> Grunt plugin for Bats. Bats is a TAP-compliant testing framework for Bash. It provides a simple way to verify that the UNIX programs you write behave as expected.
+> Grunt plugin for [Bats](https://github.com/sstephenson/bats). Bats is a TAP-compliant testing framework for Bash. It provides a simple way to verify that the UNIX programs you write behave as expected.
 
 ## Getting Started
 This plugin requires Grunt.
