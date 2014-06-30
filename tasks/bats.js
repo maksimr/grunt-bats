@@ -52,7 +52,7 @@ module.exports = function(grunt) {
         grunt.log.writeln('Running shell tests...');
 
         grunt.util.spawn({
-            cmd: path.resolve(__dirname, '../vendor/bats/libexec/bats'),
+            cmd: path.resolve(__dirname, '../node_modules/bats/libexec/bats'),
             args: files
         }, function() {
             done(testDone.apply(this, arguments));

@@ -37,5 +37,8 @@
   "scripts": {
     "test": "grunt test"
   },
-  "contributors": []
+  "contributors": [],
+  "dependencies": {
+    "bats": "git+https://github.com/sstephenson/bats.git#master"
+  }
 }
