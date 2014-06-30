@@ -5,4 +5,5 @@
 *.swm
 tags
 .tern-port
+.idea
 node_modules

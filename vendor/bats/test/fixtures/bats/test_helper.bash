@@ -1,3 +1,0 @@
-help_me() {
-  true
-}
